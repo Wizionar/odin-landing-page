@@ -27,7 +27,10 @@ body {
 }
 
 .section {
-    padding: 0 200px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .header {
@@ -59,7 +62,6 @@ ul.menu-link {
     display: flex;
     justify-content: space-between;
     padding-top: 80px;
-    padding-bottom: 80px;
 }
 
 .hero-left {
@@ -88,4 +90,8 @@ ul.menu-link {
 
 .hero-button:hover {
     background-color: #1e74ff;
+}
+
+.first {
+    text-align: center;
 }
