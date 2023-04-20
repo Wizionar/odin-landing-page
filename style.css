@@ -50,6 +50,17 @@ body {
     padding: 10px 200px;
 }
 
+.footer {
+    text-align: center;
+    background-color: #1F2937;
+    padding: 20px
+}
+
+.footer > p {
+    color:#E5E7EB;
+    margin: 20px 0;
+}
+
 .logo {
     font-size: 24px;
     font-weight: 900;
@@ -75,6 +86,11 @@ ul.menu-link {
 
 .hero-left {
     max-width: 700px;
+}
+
+.hero-left > p {
+    margin-bottom: 35px;
+    margin-top: 0;
 }
 
 .hero-heading {
@@ -130,6 +146,7 @@ ul.menu-link {
     padding-left: 300px;
     padding-right: 300px;
     padding-top: 80px;
+    padding-bottom: 100px;
 }
 
 .quote {
@@ -151,6 +168,7 @@ ul.menu-link {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 80px
 }
 
 .cta-section {
